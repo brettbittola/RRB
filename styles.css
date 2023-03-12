@@ -5,15 +5,8 @@
     text-align: center;
 }
 
-
-/* for cell phones */
-img screen and (max-width: 2000px) {
-    width: 500px;
-    height: auto;
+.image {
+    display: flex;
+    flex: auto;
 }
 
-/* for computer screens */
-img {
-    height: 500px;
-    width: auto;
-}
